@@ -67,18 +67,19 @@ Run the following in Command Prompt
 ping google.com
 
 This produces ICMP Echo Request and Echo Reply packets.  
-Go back to Wireshark and Apply filter: 'icmp'
+Go back to Wireshark and Apply filter: `icmp`
 
 ---
 
 Open any website in your browser (e.g., `example.com`).  
 Your PC will send DNS queries automatically.  
-Apply filter 'dns'
+Apply filter `dns`
 
 ---
 
 Run the following command in Powershell
 Test-NetConnection -ComputerName google.com -Port 80
+Apply filter:`tcp`
 
 
 Look at each packet’s source IP, destination IP, port numbers, and protocol behavior.
