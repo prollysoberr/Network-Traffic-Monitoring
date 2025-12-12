@@ -73,13 +73,19 @@ Go back to Wireshark and Apply filter: `icmp`
 
 Open any website in your browser (e.g., `example.com`).  
 Your PC will send DNS queries automatically.  
-Apply filter `dns`
+Apply filter `dns`	
 
 ---
 
 Run the following command in Powershell
 Test-NetConnection -ComputerName google.com -Port 80
 Apply filter:`tcp`
+
+--
+
+Visit a non-HTTPS site such as neverssl.com
+This produces readable HTTP traffic 
+Apply filter:`zhttp`
 
 
 Look at each packet’s source IP, destination IP, port numbers, and protocol behavior.
