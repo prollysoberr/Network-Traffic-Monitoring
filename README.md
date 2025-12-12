@@ -91,7 +91,10 @@ Run the following command in Powershell
 
 ```Test-NetConnection -ComputerName google.com -Port 80```
 
-Go back to Wireshark and Apply filter:`tcp`
+<img width="813" height="338" alt="powershell" src="https://github.com/user-attachments/assets/92063f44-2fea-4302-a4a8-12723eca20d8" />
+
+Go back to Wireshark and Apply filter:`tcp.port == 80 || udp.port == 80`
+
 
 ---
 
