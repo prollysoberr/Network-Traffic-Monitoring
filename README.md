@@ -70,6 +70,7 @@ Run the following in Command Prompt
 
 This produces ICMP Echo Request and Echo Reply packets.  
 <img width="553" height="340" alt="cmd prompt" src="https://github.com/user-attachments/assets/d53a57f4-831e-4f98-ae3a-7e8306d96c04" />
+
 Go back to Wireshark and Apply filter: `icmp`
 <img width="739" height="268" alt="icmp" src="https://github.com/user-attachments/assets/c186e55b-78e2-4760-b11d-a16e1891b846" />
 
