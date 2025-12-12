@@ -62,7 +62,7 @@ Generate traffic by opening a browser, loading websites, or using apps.
 ### 4. Analyze Collected Traffic
 Use filters to break down traffic by protocol:
 
---
+---
 
 Run the following in Command Prompt
 
