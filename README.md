@@ -69,6 +69,7 @@ Run the following in Command Prompt
 ```ping google.com```
 
 This produces ICMP Echo Request and Echo Reply packets.  
+
 Go back to Wireshark and Apply filter: `icmp`
 
 ---
@@ -89,7 +90,8 @@ Go back to Wireshark and Apply filter:`tcp`
 ---
 
 Visit a non-HTTPS site such as ```neverssl.com```
-This produces readable HTTP traffic 
+This produces readable HTTP traffic
+
 Go back to Wireshark and Apply filter:`http`
 
 ---
