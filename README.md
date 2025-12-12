@@ -95,6 +95,7 @@ Run the following command in Powershell
 
 Go back to Wireshark and Apply filter:`tcp.port == 80 || udp.port == 80`
 
+<img width="741" height="305" alt="tcp" src="https://github.com/user-attachments/assets/85cb2e75-3fcd-4026-a8e9-3cb8387e0d37" />
 
 ---
 
