@@ -78,9 +78,12 @@ Go back to Wireshark and Apply filter: `icmp`
 ---
 
 Open any website in your browser (e.g., `example.com`).  
-Your PC will send DNS queries automatically.
+<img width="1145" height="368" alt="example" src="https://github.com/user-attachments/assets/8630722e-6c6c-4275-826e-a1f629713eaa" /> 
 
-Go back to Wireshark and Apply filter `dns`	
+Your PC will send DNS queries automatically.
+Go back to Wireshark and Apply filter `dns`
+
+<img width="744" height="329" alt="dns" src="https://github.com/user-attachments/assets/a90fbc95-fcf0-4ed9-bb29-9e17c1ab5180" />
 
 ---
 
