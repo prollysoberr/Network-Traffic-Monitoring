@@ -81,12 +81,13 @@ Run the following command in Powershell
 Test-NetConnection -ComputerName google.com -Port 80
 Apply filter:`tcp`
 
---
+---
 
 Visit a non-HTTPS site such as neverssl.com
 This produces readable HTTP traffic 
-Apply filter:`zhttp`
+Apply filter:`http`
 
+---
 
 Look at each packet’s source IP, destination IP, port numbers, and protocol behavior.
 
