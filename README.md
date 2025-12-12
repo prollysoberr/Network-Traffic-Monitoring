@@ -114,4 +114,7 @@ Go back to Wireshark and Apply filter:`http`
 
 After observing each protocol, click **Stop Capturing Packets** in Wireshark.  
 This ends the capture session and allows you to review the collected packets without generating additional traffic.
+
+<img width="734" height="312" alt="stop" src="https://github.com/user-attachments/assets/56420d71-b6b1-4245-9900-90a050f732a1" />
+
 At this point, all required protocol data (ICMP, DNS, TCP, and HTTP) has been successfully captured.
