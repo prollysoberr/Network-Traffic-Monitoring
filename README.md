@@ -61,11 +61,33 @@ Generate traffic by opening a browser, loading websites, or using apps.
 
 ### 4. Analyze Collected Traffic
 Use filters to break down traffic by protocol:
-
 - `http`
 - `dns`
 - `tcp`
 - `icmp`
+
+  --
+
+  ---
+
+Run the following in Command Prompt
+
+ping google.com
+
+This produces ICMP Echo Request and Echo Reply packets.  
+Go back to Wireshark and Apply filter: icmp
+
+---
+
+Open any website in your browser (e.g., `example.com`).  
+Your PC will send DNS queries automatically.  
+Apply filter
+
+---
+
+Run the following command in Powershell
+Test-NetConnection -ComputerName google.com -Port 80
+
 
 Look at each packet’s source IP, destination IP, port numbers, and protocol behavior.
 
