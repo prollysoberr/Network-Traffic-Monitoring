@@ -100,15 +100,12 @@ Go back to Wireshark and Apply filter:`tcp.port == 80 || udp.port == 80`
 ---
 
 Visit a non-HTTPS site such as ```neverssl.com```
-This produces readable HTTP traffic
 
+<img width="546" height="283" alt="never" src="https://github.com/user-attachments/assets/6de59f5e-e799-47cb-818b-5f7d3b3b10b2" />
+
+This produces readable HTTP traffic
 Go back to Wireshark and Apply filter:`http`
 
----
-
-Look at each packet’s source IP, destination IP, port numbers, and protocol behavior.
-
-<img width="732" height="313" alt="tcp" src="https://github.com/user-attachments/assets/fa5d5a2f-ce7d-425c-a786-7d85759aa2e0" />
-
+<img width="744" height="227" alt="http" src="https://github.com/user-attachments/assets/69ce9d43-794e-4574-a8d4-1127d203f8ff" />
 
 ---
