@@ -81,6 +81,7 @@ Open any website in your browser (e.g., `example.com`).
 <img width="1145" height="368" alt="example" src="https://github.com/user-attachments/assets/8630722e-6c6c-4275-826e-a1f629713eaa" /> 
 
 Your PC will send DNS queries automatically.
+
 Go back to Wireshark and Apply filter `dns`
 
 <img width="744" height="329" alt="dns" src="https://github.com/user-attachments/assets/a90fbc95-fcf0-4ed9-bb29-9e17c1ab5180" />
@@ -104,6 +105,7 @@ Visit a non-HTTPS site such as ```neverssl.com```
 <img width="546" height="283" alt="never" src="https://github.com/user-attachments/assets/6de59f5e-e799-47cb-818b-5f7d3b3b10b2" />
 
 This produces readable HTTP traffic
+
 Go back to Wireshark and Apply filter:`http`
 
 <img width="744" height="227" alt="http" src="https://github.com/user-attachments/assets/69ce9d43-794e-4574-a8d4-1127d203f8ff" />
