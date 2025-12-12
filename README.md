@@ -66,7 +66,7 @@ Use filters to break down traffic by protocol:
 
 Run the following in Command Prompt
 
-ping google.com
+```ping google.com```
 
 This produces ICMP Echo Request and Echo Reply packets.  
 Go back to Wireshark and Apply filter: `icmp`
@@ -75,19 +75,19 @@ Go back to Wireshark and Apply filter: `icmp`
 
 Open any website in your browser (e.g., `example.com`).  
 Your PC will send DNS queries automatically.  
-Apply filter `dns`	
+Go back to Wireshark and Apply filter `dns`	
 
 ---
 
 Run the following command in Powershell
-Test-NetConnection -ComputerName google.com -Port 80
-Apply filter:`tcp`
+```Test-NetConnection -ComputerName google.com -Port 80```
+Go back to Wireshark and Apply filter:`tcp`
 
 ---
 
-Visit a non-HTTPS site such as neverssl.com
+Visit a non-HTTPS site such as ```neverssl.com```
 This produces readable HTTP traffic 
-Apply filter:`http`
+Go back to Wireshark and Apply filter:`http`
 
 ---
 
