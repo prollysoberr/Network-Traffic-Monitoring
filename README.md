@@ -18,7 +18,8 @@ This project is a step-by-step tutorial that demonstrates how to monitor network
 
 ## Technologies / Tools Used
 - **Wireshark** — free and open-source network packet analyzer used to capture and inspect network traffic.
-**Windows 11 Command Prompt** 
+- **Windows 11 Command Prompt**
+- **windows 11 Powershell
 ---
 
 ## Protocols Analyzed
